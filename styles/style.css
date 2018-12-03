@@ -8,6 +8,21 @@ body {
   background: #f1f1f1;
 }
 
+.navbar {
+  background: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  border-radius: 1px;
+  background: #f1f1f1;
+}
+
+.search-bar .form-control {
+  border-radius: 2px;
+  width: 80%
+}
+
 .movie-list-entry {
   border-radius: 1px;
   border-style: ridge;
