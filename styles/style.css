@@ -1,26 +1,27 @@
 h1 {
-  background-color: #f1f1f1;
+  background: orange;
   font-style: italic;
   text-align: center;
 }
 
 body {
-  background: #f1f1f1;
+  background: orange;
 }
 
 .navbar {
-  background: #f1f1f1;
+  background: orange;
   margin-bottom: 20px;
 }
 
 .search-bar {
   border-radius: 1px;
-  background: #f1f1f1;
+  background: orange;
 }
 
 .search-bar .form-control {
   border-radius: 2px;
   width: 80%
+
 }
 
 .movie-list-entry {
@@ -34,4 +35,13 @@ body {
 
 .movie-name {
   padding: 20px;
+  background-color: yellow;
+}
+
+.addBtn {
+  background-color: lightgreen;
+}
+
+.searchBtn {
+  background-color: lightblue;
 }
