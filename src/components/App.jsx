@@ -37,6 +37,8 @@ class App extends React.Component {
         Movies: [{'title': 'Sorry, no result found'}]
       });    
     }
+    $('#searchInput').val('');
+    
   }
 
   handleAddChange(event) {
@@ -51,7 +53,8 @@ class App extends React.Component {
     movies.push(newMovie);
     this.setState({
         Movies: movies
-    })
+    });
+    $('#addInput').val('');
   }
 
   render() {
